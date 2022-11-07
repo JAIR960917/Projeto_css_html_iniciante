@@ -1,0 +1,316 @@
+*{ /*Configuração da página completa*/
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	background-color: black;
+}
+
+
+
+html,body{
+	height: 100%; /*Elemento py*/
+}
+
+#rodape{ /*Configurando a Div do rodapé*/
+	width: 99%;
+	margin: 2 ;
+	background-color: black;
+	text-align: right;
+	padding: 2;
+}
+
+#rodape a{ /*Configurando o texto do rodapé*/
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+#inicio img {
+	margin-top: 15px;
+	width: 100%;
+	height: 500px;
+}
+
+#textoI h1{ /*Texto de Cursos Disponíveis*/
+	color: white;
+	font-size: 27px;
+	font-weight: bold;
+	font-family: Arial;
+	margin-top: 13px;
+	margin-bottom: 10px;
+}
+
+.menu{ /*Estilização do menu geral*/
+	margin-top: 10px;
+	width: 100%;
+	margin: 1 auto;
+	background-color: black;
+	padding: 5px;
+	text-align: center;
+}
+
+.menu a{ /*Estilização dos links*/
+	margin: 0 40px; /*Margem interna e margem entre os textos*/
+	font-size: 20px; /*Tamanho do texto*/
+	color: white; /*Cor do texto*/
+	text-decoration: none; /*Removendo sublinhado de link*/
+	background-color: black;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.artigo{ /*Estilização da classe artigo*/
+	width: 400px;
+	margin: 5px auto;
+	margin-top: 5px;
+	padding: 20px;
+	text-align: center;
+	background-color: rgb(79, 79, 79);
+}
+
+#div1{ /*Estilização da div*/
+	background-color: rgb(16, 18, 32);
+}
+
+#div1 p{ /*Estilização paragrafo da div*/
+	background-color: rgb(16, 18, 32);
+	color: white;
+}
+
+
+#div1 h1{ /*Estilização do titulo da div*/
+	color: white;
+	font-size: 23px;
+	font-family: Arial;/*Modificando a fonte da letra, sempre que a fonte conter espaços usar aspas duplas ""*/
+	font-style: normal; /*Estilo para a fonte*/
+	font-weight: bold; /*Estilo para a fonte*/
+	font-variant: small-caps;/*Todas as letras ficam parecidas como maiusculas*/
+	background-color: rgb(16, 18, 32);
+}
+
+#div1 button{ /*Estilização do botão da div*/
+	margin-top: 22px;
+	width: 250px;
+	height: 30px;
+	background-color: white;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgb(16, 18, 32);
+}
+
+#div2 { /*Estilização da div*/
+	background-color: rgb(16, 18, 32);
+}
+
+#div2 p{ /*Estilização paragrafo da div*/
+	background-color: rgb(16, 18, 32);
+	color: white;
+}
+
+#div2 h1{ /*Estilização do titulo da div*/
+	color: white;
+	font-size: 23px;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	background-color: rgb(16, 18, 32);
+}
+
+#div2 button{ /*Estilização do botão da div*/
+	margin-top: 40px; 
+	background-color: white;
+	font-size: 15px;
+	font-weight: bold;
+	color: rgb(16, 18, 32);
+	width: 250px;
+	height: 30px;
+}
+
+#div3{ /*Estilização da div*/
+	background-color: rgb(16, 18, 32);
+}
+
+#div3 p{ /*Estilização paragrafo da div*/
+	background-color: rgb(16, 18, 32);
+	color: white;
+}
+
+#div3 h1{ /*Estilização do titulo da div*/
+	color: white;
+	font-size: 23px;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	background-color: rgb(16, 18, 32);
+}
+
+#div3 button{ /*Estilização do botão da div*/
+	margin-top: 40px;
+	background-color: white;
+	font-size: 15px;
+	font-weight: bold;
+	color: rgb(16, 18, 32);
+	width: 250px;
+	height: 30px;
+}
+
+#div4 {
+	background-color: rgb(16, 18, 32);
+}
+
+#div4 p{
+	background-color: rgb(16, 18, 32);
+	color: white;
+}
+
+#div4 h1{
+	color: white;
+	font-size: 23px;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	background-color: rgb(16, 18, 32);
+}
+
+#div4 button{
+	margin-top: 50px;
+	background-color: white;
+	font-size: 15px;
+	font-weight: bold;
+	color: rgb(16, 18, 32);
+	width: 250px;
+	height: 30px;
+}
+
+#div5 {
+	background-color: rgb(16, 18, 32);
+}
+
+#div5 p{
+	background-color: rgb(16, 18, 32);
+	color: white;
+	margin-top: 27px;
+}
+
+#div5 h1{
+	margin-top: 10px;
+	color: white;
+	font-size: 23px;
+	font-family: Arial;
+	font-weight: bold;
+	font-style: normal;
+	background-color: rgb(16, 18, 32);
+}
+
+#div5 button{
+	margin-top: 40px;
+	background-color: white;
+	font-size: 15px;
+	font-weight: bold;
+	color: rgb(16, 18, 32);
+	width: 250px;
+	height: 30px;
+}
+
+#div6 {
+	background-color: rgb(16, 18, 32);
+}
+
+#div6 p{
+	margin-top: 27px;
+	background-color: rgb(16, 18, 32);
+	color: white;
+}
+
+#div6 h1{
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 23px;
+	font-family: Arial;
+	font-style: normal;
+	background-color: rgb(16, 18, 32);
+}
+
+#div6 button{
+	margin-top: 40px;
+	background-color: white;
+	font-size: 15px;
+	font-weight: bold;
+	color: rgb(16, 18, 32);
+	width: 250px;
+	height: 30px;
+}
+
+#div7 {
+	background-color: rgb(16, 18, 32);
+	width: 95%;
+}
+
+#div7 p{
+	margin-top: 27px;
+	background-color: rgb(16, 18, 32);
+	color: white;
+}
+
+#div7 h1{
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 23px;
+	font-family: Arial;
+	font-style: normal;
+	background-color: rgb(16, 18, 32);
+}
+
+#div8{
+	line-height: 30px;
+	width: 95%;
+	color: white;
+	background-color:  rgb(16, 18, 32);
+}
+
+#div8 i{
+	width: 70px;
+	height: 70px;
+	color: white;
+	background-color: rgb(16, 18, 32);
+}
+
+#div8 p{
+	font-size: 15px;
+	color: white;
+	background-color: rgb(16, 18, 32);
+}
+
+#div8 h1{
+	background-color: rgb(16, 18, 32);
+	color: white;
+}
+
+#div1{ /*Estilização mais de uma div em uma linha*/
+	display: inline-block;
+}
+
+#div2{ /*Estilização mais de uma div em uma linha*/
+	display: inline-block;
+}
+
+#div3{ /*Estilização mais de uma div em uma linha*/
+	display: inline-block;
+}
+
+#div4{ /*Estilização mais de uma div em uma linha*/
+	display: inline-block;
+}
+
+#div5{ /*Estilização mais de uma div em uma linha*/
+	display: inline-block;
+}
+
+#div6{ /*Estilização mais de uma div em uma linha*/
+	display: inline-block;
+}
+
+
